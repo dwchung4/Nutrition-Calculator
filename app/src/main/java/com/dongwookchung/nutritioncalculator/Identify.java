@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 import android.app.Activity;
 import android.app.AlertDialog;

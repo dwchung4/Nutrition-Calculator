@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 public class Daily {
     public double getDailyCalories(String gender, double age, double height, double weight, int activity) {

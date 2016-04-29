@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

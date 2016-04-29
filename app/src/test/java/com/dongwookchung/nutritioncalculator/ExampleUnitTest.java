@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 import org.junit.Test;
 

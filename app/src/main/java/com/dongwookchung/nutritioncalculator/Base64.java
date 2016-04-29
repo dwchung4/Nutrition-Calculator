@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 /*
  * Copyright (C) 2010 The Android Open Source Project

@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;

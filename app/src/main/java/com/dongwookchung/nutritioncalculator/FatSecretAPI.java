@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 /*
  * Copyright (C) 2014 Saurabh Rane

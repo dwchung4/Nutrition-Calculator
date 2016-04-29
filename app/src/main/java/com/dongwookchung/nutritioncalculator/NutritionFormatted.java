@@ -1,4 +1,4 @@
-package com.dongwookchung.calcal;
+package com.dongwookchung.nutritioncalculator;
 
 import java.lang.StringBuilder;
 import java.text.DecimalFormat;
