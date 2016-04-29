@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Gender"
+            android:textColor="@android:color/white"
+            android:id="@+id/genderTextView" />
+
+        <RadioGroup
+
+            android:id="@+id/genderGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/genderButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/genderButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Age"
+            android:textColor="@android:color/white"
+            android:id="@+id/ageTextView" />
+
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numbers only"
+            android:imeOptions="actionDone"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Height (in cm)"
+            android:textColor="@android:color/white"
+            android:id="@+id/heightTextView" />
+
+        <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numbers only"
+            android:imeOptions="actionDone"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Weight (in kg)"
+            android:textColor="@android:color/white"
+            android:id="@+id/weightTextView" />
+
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numbers only"
+            android:imeOptions="actionDone"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Physical Activity"
+            android:textColor="@android:color/white"
+            android:id="@+id/activityTextView" />
+
+        <RadioGroup
+
+            android:id="@+id/activityGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/activityButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="sedentary" />
+
+            <RadioButton
+                android:id="@+id/activityButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="low active" />
+
+            <RadioButton
+                android:id="@+id/activityButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="active" />
+
+            <RadioButton
+                android:id="@+id/activityButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="very active" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
